@@ -57,7 +57,7 @@ if ( isset( $_SESSION['twitter_access_token'] ) && $_SESSION['twitter_access_tok
 	        ?>
 	        <img src="<?php echo $user->profile_image_url; ?>" />
 	        <br />
-	        <b>User:</b> <?php echo $user->name; ?>
+	        <b>Users:</b> <?php echo $user->name; ?>
 	        <br />
 	        <b>Location:</b> <?php echo $user->location; ?>
 	        <br />
